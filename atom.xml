@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>NBlog</title>
+  
+  <subtitle>由一条咸鱼搭建的博客</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://tool.misakal.xyz/"/>
+  <updated>2020-07-10T05:42:59.195Z</updated>
+  <id>http://tool.misakal.xyz/</id>
+  
+  <author>
+    <name>NriotHrreion</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>自制工具站点</title>
+    <link href="http://tool.misakal.xyz/2020/07/10/toolsite/"/>
+    <id>http://tool.misakal.xyz/2020/07/10/toolsite/</id>
+    <published>2020-07-10T05:11:25.144Z</published>
+    <updated>2020-07-10T05:42:59.195Z</updated>
+    
+    <content type="html"><![CDATA[<p>我经常会用<strong>Javascript</strong>制作一些实用小工具或小游戏, 但是做了又没地方放, 就只好把这些东西上传至我的工具站点。</p><p>我制作过像 <a href="https://tool.misakal.xzy/snake" target="_blank" rel="noopener">贪吃蛇</a>、<a href="https://tool.misakal.xyz/gopher">打地鼠</a> 的小游戏, 也整过 <a href="https://tool.misakal.xyz/cps">cps测试器</a>、<a href="https://tool.misakal.xyz/base64">Base64转换器</a> 等小工具, 当然, 不至这些… 你或许可以去 <a href="https://tool.misakal.xyz">这里</a> 看看。</p><p>XD~~</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;我经常会用&lt;strong&gt;Javascript&lt;/strong&gt;制作一些实用小工具或小游戏, 但是做了又没地方放, 就只好把这些东西上传至我的工具站点。&lt;/p&gt;
+&lt;p&gt;我制作过像 &lt;a href=&quot;https://tool.misakal.xzy/snake&quot; target
+      
+    
+    </summary>
+    
+    
+    
+      <category term="开发" scheme="http://tool.misakal.xyz/tags/%E5%BC%80%E5%8F%91/"/>
+    
+      <category term="公告" scheme="http://tool.misakal.xyz/tags/%E5%85%AC%E5%91%8A/"/>
+    
+      <category term="网站" scheme="http://tool.misakal.xyz/tags/%E7%BD%91%E7%AB%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Minecraft Java服务器</title>
+    <link href="http://tool.misakal.xyz/2020/07/08/server/"/>
+    <id>http://tool.misakal.xyz/2020/07/08/server/</id>
+    <published>2020-07-08T04:13:20.073Z</published>
+    <updated>2020-07-10T05:42:24.279Z</updated>
+    
+    <content type="html"><![CDATA[<p>我开了一个<del>没啥人玩的</del>Minecraft Java版服务器</p><p>欢迎游玩~~</p><ul><li>IP: <strong>120.24.34.104</strong></li><li>版本: <strong>Minecraft Java 1.16.1</strong></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;我开了一个&lt;del&gt;没啥人玩的&lt;/del&gt;Minecraft Java版服务器&lt;/p&gt;
+&lt;p&gt;欢迎游玩~~&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;IP: &lt;strong&gt;120.24.34.104&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;版本: &lt;strong&gt;Minecraft Java
+      
+    
+    </summary>
+    
+    
+    
+      <category term="服务器" scheme="http://tool.misakal.xyz/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+      <category term="Minecraft" scheme="http://tool.misakal.xyz/tags/Minecraft/"/>
+    
+      <category term="开发" scheme="http://tool.misakal.xyz/tags/%E5%BC%80%E5%8F%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>新博客正式开启</title>
+    <link href="http://tool.misakal.xyz/2020/07/08/new/"/>
+    <id>http://tool.misakal.xyz/2020/07/08/new/</id>
+    <published>2020-07-08T04:06:22.302Z</published>
+    <updated>2020-07-08T04:10:09.520Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>NBlog</strong> 已正式开启，欢迎！</p><p><del>话说这已经不是我第一次开博客了吧….awa</del></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;NBlog&lt;/strong&gt; 已正式开启，欢迎！&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;话说这已经不是我第一次开博客了吧….awa&lt;/del&gt;&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+    
+      <category term="公告" scheme="http://tool.misakal.xyz/tags/%E5%85%AC%E5%91%8A/"/>
+    
+      <category term="博客" scheme="http://tool.misakal.xyz/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+</feed>

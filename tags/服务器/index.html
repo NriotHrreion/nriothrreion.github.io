@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<!-- Head tag -->
+<head>
+
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+    <!--Description-->
+
+    
+
+    
+        <meta name="description" content="由一条咸鱼搭建的博客"/>
+    
+
+    <!--Author-->
+    
+        <meta name="author" content="NriotHrreion"/>
+    
+
+    <!--Open Graph Title-->
+    
+        <meta property="og:title" content="NBlog"/>
+    
+
+    <!--Open Graph Description-->
+    
+        <meta property="og:description" content="由一条咸鱼搭建的博客"/>
+    
+
+    <!--Open Graph Site Name-->
+        <meta property="og:site_name" content="NBlog"/>
+
+    <!--Type page-->
+    
+        <meta property="og:type" content="website"/>
+    
+
+    <!--Page Cover-->
+    
+    
+        <meta property="og:image" content="/img/background.jpg"/>
+    
+
+        <meta name="twitter:card" content="summary_large_image"/>
+
+    
+
+    
+        <meta name="twitter:image" content="/img/background.jpg"/>
+    
+
+    <!-- Title -->
+    
+    <title>服务器 - NBlog</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.6/dist/css/bootstrap.min.css" rel="stylesheet"/>
+
+    <!-- Custom CSS -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    <!-- Custom Fonts -->
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css"/>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Gallery -->
+    <link href="https://cdn.jsdelivr.net/npm/featherlight@1.7.14/release/featherlight.min.css" type="text/css" rel="stylesheet"/>
+
+    <!-- Google Analytics -->
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172053819-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-172053819-1');
+    </script>
+
+
+
+    <!-- favicon -->
+    
+        <link rel="icon" href="/img/icon.png"/>
+    
+
+    <!-- import jquery -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    
+    <script>
+        console.error(":D Hello?");
+    </script>
+<meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="NBlog" type="application/atom+xml">
+</head>
+
+
+<body>
+
+    <!-- Menu -->
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top" style="position: fixed">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/" style="display: block;">NriotHrreion's Blog</a>
+        </div>
+
+        <div class="nav-title">
+            <p id="nav-title">Homepage</p>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="position: absolute;top: 0;right: 10px">
+            <ul class="nav navbar-nav navbar-right">
+                
+                    <li>
+                        <a class="nav-links" href="/">
+                            
+                                主页
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a class="nav-links" href="/archives">
+                            
+                                归档
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a class="nav-links" href="/links">
+                            
+                                友链
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a class="nav-links" href="/about">
+                            
+                                关于
+                            
+                        </a>
+                    </li>
+                
+                <li>
+                    <a id="ssr" href="./atom.xml" style="padding-top: 15px"><img src="/img/wifi.png" style="width: 20px;height: 20px;cursor: pointer;"></a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<script>
+    var sTop = 0;
+    $(window).scroll(function() {
+        sTop = $(this).scrollTop();
+        var height = $(document).height();
+        if(sTop >= 446) {
+            $(".navbar").css({"background": "white"});
+            $(".navbar-brand").css({"color": "black"});
+            $(".nav-links").css({"color": "black"});
+            $("#ssr").css({"display": "none"});
+            $(".nav-title").css({"display": "block"});
+            $("#nav-title").css({"color": "black"});
+        } else {
+            $(".navbar").css({"background": "transparent"});
+            $(".navbar-brand").css({"color": "white"});
+            $(".nav-links").css({"color": "white"});
+            $("#ssr").css({"display": "block"});
+            $(".nav-title").css({"display": "none"});
+            $("#nav-title").css({"color": "transparent"});
+        }
+    });
+</script>
+
+    <!-- Main Content -->
+    
+
+<!-- Page Header -->
+<!-- Set your background image for this header in the theme's configuration: index_cover -->
+<header class="intro-header" style="background-image: url('/img/background.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="site-heading">
+                    <h1>#服务器</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Main Content -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            
+                <div class="post-preview">
+    <a href="/2020/07/08/server/">
+        <h1 class="post-title archive">
+            Minecraft Java服务器
+        </h1>
+    </a>
+    <p class="post-meta archive">
+        <!-- Date and Author -->
+        
+            NriotHrreion 
+        
+        2020-07-08
+    </p>
+</div>
+            
+            <div class="archive-before-pagination"></div>
+            <ul class="pager">
+    
+    
+</ul>
+        </div>
+    </div>
+</div>
+
+
+    <!-- Footer -->
+    <hr />
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                        <li>
+                            <a href="https://github.com/NriotHrreion" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+                    
+                        <li>
+                            <a href="nriot233@outlook.com" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+                </ul>
+                <script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
+                <p class="copyright text-muted" id="hitokoto" style="margin-top: 20px;"><br></p>
+                <p class="copyright text-muted" style="margin-top: 25px;">&copy; 2020 NriotHrreion<br></p>
+                <p class="copyright text-muted">Blog by <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <!-- After footer scripts -->
+    <!-- import jquery -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@1.9.1/jquery.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="//cdn.jsdelivr.net/npm/bootstrap@3.3.6/dist/js/bootstrap.min.js"></script>
+
+<!-- Gallery -->
+<script src="//cdn.jsdelivr.net/npm/featherlight@1.7.14/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
+<!-- Disqus Comments -->
+
+
+
+    
+    <script>
+        document.querySelector("body").onclick = function() {
+            document.getElementById("local-search-result").style.display = "none";
+        }
+    </script>
+</body>
+
+</html>
