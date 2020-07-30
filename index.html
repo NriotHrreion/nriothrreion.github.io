@@ -4,10 +4,8 @@
 <!-- Head tag -->
 <head>
 
-    
-
     <meta charset="utf-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"/>
 
     <!--Description-->
 
@@ -58,11 +56,13 @@
     
     <title>NBlog</title>
 
+    <script src="/js/style.js"></script>
+
     <!-- Bootstrap Core CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.6/dist/css/bootstrap.min.css" rel="stylesheet"/>
 
     <!-- Custom CSS -->
-    <link href="/css/style.css?v=5790923" rel="stylesheet">
+    <script>cssId("L2Nzcy9zdHlsZS5jc3M=")</script>
 
     <!-- Custom Fonts -->
     <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
@@ -99,10 +99,7 @@
 
     <!-- import jquery -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
-    
-    <script>
-        console.error(":D Hello?");
-    </script>
+
 <meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="NBlog" type="application/atom+xml">
 </head>
 
@@ -288,70 +285,7 @@
 </ul>
         </div>
     </div>
-    <script>
-var searchFunc = function(path, search_id, content_id) {
-    'use strict';
-    $.ajax({
-        url: path,
-        dataType: "xml",
-        success: function( xmlResponse ) {
-            var datas = $( "entry", xmlResponse ).map(function() {
-                return {
-                    title: $( "title", this ).text(),
-                    content: $("content",this).text(),
-                    url: $( "url" , this).text()
-                };
-            }).get();
-            var $input = document.getElementById(search_id);
-            var $resultContent = document.getElementById(content_id);
-            $input.addEventListener('input', function(){
-                var str='<ul class=\"search-result-list\">';                
-                var keywords = $input.value.trim().toLowerCase().split(/[\s\-]+/);
-                $resultContent.innerHTML = "";
-                if ($input.value.trim().length <= 0) {
-                    return;
-                }
-                datas.forEach(function(data) {
-                    document.getElementById(content_id).style.display = "block";
-                    var isMatch = true;
-                    var content_index = [];
-                    var data_title = data.title.trim().toLowerCase();
-                    var data_content = data.content.trim().replace(/<[^>]+>/g,"").toLowerCase();
-                    var data_url = data.url;
-                    var index_title = -1;
-                    var index_content = -1;
-                    var first_occur = -1;
-                    if (isMatch) {
-                        str += "<li><a href='"+ data_url +"' class='search-result-title' target='_blank'>"+ "> " + data_title +"</a>";
-                        var content = data.content.trim().replace(/<[^>]+>/g,"");
-                        if (first_occur >= 0) {
-                            var start = first_occur - 6;
-                            var end = first_occur + 6;
-                            if(start < 0){
-                                start = 0;
-                            }
-                            if(start == 0){
-                                end = 10;
-                            }
-                            if(end > content.length){
-                                end = content.length;
-                            }
-                            var match_content = content.substr(start, end);
-                            str += "<p class=\"search-result\">" + match_content +"...</p>"
-                        }
-                    }
-                })
-                $resultContent.innerHTML = str;
-            })
-        }
-    })
-};
-var path = "../search.xml";
-searchFunc(path, 'local-search-input', 'local-search-result');
-    </script>
-    <input type="text" id="local-search-input" results="0" placeholder="搜索文章"/>
-    <div id="local-search-result"></div>
-    <div class="tag-cloud" style="float: right;margin-top: 60px;">
+    <div class="tag-cloud">
         
             <div class="widget-wrap">
                 <h3 class="widget-title">Tag Cloud</h3>
