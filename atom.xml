@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://tool.misakal.xyz/"/>
-  <updated>2020-07-10T05:42:59.195Z</updated>
+  <updated>2020-08-01T02:17:49.061Z</updated>
   <id>http://tool.misakal.xyz/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Nocp-startpage</title>
+    <link href="http://tool.misakal.xyz/2020/08/01/startpage/"/>
+    <id>http://tool.misakal.xyz/2020/08/01/startpage/</id>
+    <published>2020-08-01T02:03:02.689Z</published>
+    <updated>2020-08-01T02:17:49.061Z</updated>
+    
+    <content type="html"><![CDATA[<p>Nocp-startpage 是一个新标签页插件, 可以使你的Chrome新标签页更加简洁美观.</p><h2 id="预览"><a href="#预览" class="headerlink" title="预览"></a>预览</h2><p>Demo: <a href="https://nriothrreion.github.io/Nocp-startpage/demo/nstart.html" target="_blank" rel="noopener">查看demo</a></p><p>插件截图:</p><p><img src="https://nriothrreion.github.io/Nocp-startpage/preview.png" alt="preview"></p><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="https://github.com/NriotHrreion/Nocp-startpage" target="_blank" rel="noopener">代码库</a></li><li><a href="https://github.com/NriotHrreion/Nocp-startpage/releases" target="_blank" rel="noopener">最新版本</a></li><li><a href="https://github.com/NriotHrreion/tools/releases" target="_blank" rel="noopener">旧版本</a></li></ul><h2 id="许可"><a href="#许可" class="headerlink" title="许可"></a>许可</h2><p><a href="https://github.com/NriotHrreion/Nocp-startpage/LICENSE" target="_blank" rel="noopener">Apache-2.0</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Nocp-startpage 是一个新标签页插件, 可以使你的Chrome新标签页更加简洁美观.&lt;/p&gt;
+&lt;h2 id=&quot;预览&quot;&gt;&lt;a href=&quot;#预览&quot; class=&quot;headerlink&quot; title=&quot;预览&quot;&gt;&lt;/a&gt;预览&lt;/h2&gt;&lt;p&gt;Demo: &lt;a href=
+      
+    
+    </summary>
+    
+    
+    
+      <category term="开发" scheme="http://tool.misakal.xyz/tags/%E5%BC%80%E5%8F%91/"/>
+    
+      <category term="Chrome插件" scheme="http://tool.misakal.xyz/tags/Chrome%E6%8F%92%E4%BB%B6/"/>
+    
+      <category term="javascript" scheme="http://tool.misakal.xyz/tags/javascript/"/>
+    
+  </entry>
   
   <entry>
     <title>自制工具站点</title>
