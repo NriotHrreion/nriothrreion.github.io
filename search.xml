@@ -1,97 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>Nocp-startpage</title>
-      <link href="/2020/08/01/startpage/"/>
-      <url>/2020/08/01/startpage/</url>
-      
-        <content type="html"><![CDATA[<p>Nocp-startpage 是一个新标签页插件, 可以使你的Chrome新标签页更加简洁美观.</p><h2 id="预览"><a href="#预览" class="headerlink" title="预览"></a>预览</h2><p>Demo: <a href="https://nriothrreion.github.io/Nocp-startpage/demo/nstart.html" target="_blank" rel="noopener">查看demo</a></p><p>插件截图:</p><p><img src="https://nriothrreion.github.io/Nocp-startpage/preview.png" alt="preview"></p><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="https://github.com/NriotHrreion/Nocp-startpage" target="_blank" rel="noopener">代码库</a></li><li><a href="https://github.com/NriotHrreion/Nocp-startpage/releases" target="_blank" rel="noopener">最新版本</a></li><li><a href="https://github.com/NriotHrreion/tools/releases" target="_blank" rel="noopener">旧版本</a></li></ul><h2 id="许可"><a href="#许可" class="headerlink" title="许可"></a>许可</h2><p><a href="https://github.com/NriotHrreion/Nocp-startpage/LICENSE" target="_blank" rel="noopener">Apache-2.0</a></p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 开发 </tag>
-            
-            <tag> Chrome插件 </tag>
-            
-            <tag> javascript </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>自制工具站点</title>
-      <link href="/2020/07/10/toolsite/"/>
-      <url>/2020/07/10/toolsite/</url>
-      
-        <content type="html"><![CDATA[<p>我经常会用<strong>Javascript</strong>制作一些实用小工具或小游戏, 但是做了又没地方放, 就只好把这些东西上传至我的工具站点。</p><p>我制作过像 <a href="https://tool.misakal.xzy/snake" target="_blank" rel="noopener">贪吃蛇</a>、<a href="https://tool.misakal.xyz/gopher">打地鼠</a> 的小游戏, 也整过 <a href="https://tool.misakal.xyz/cps">cps测试器</a>、<a href="https://tool.misakal.xyz/base64">Base64转换器</a> 等小工具, 当然, 不至这些… 你或许可以去 <a href="https://tool.misakal.xyz">这里</a> 看看。</p><p>XD~~</p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 开发 </tag>
-            
-            <tag> 公告 </tag>
-            
-            <tag> 网站 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Minecraft Java服务器</title>
-      <link href="/2020/07/08/server/"/>
-      <url>/2020/07/08/server/</url>
-      
-        <content type="html"><![CDATA[<p>我开了一个<del>没啥人玩的</del>Minecraft Java版服务器</p><p>欢迎游玩~~</p><ul><li>IP: <strong>120.24.34.104</strong></li><li>版本: <strong>Minecraft Java 1.16.1</strong></li></ul>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 服务器 </tag>
-            
-            <tag> Minecraft </tag>
-            
-            <tag> 开发 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>新博客正式开启</title>
-      <link href="/2020/07/08/new/"/>
-      <url>/2020/07/08/new/</url>
-      
-        <content type="html"><![CDATA[<p><strong>NBlog</strong> 已正式开启，欢迎！</p><p><del>话说这已经不是我第一次开博客了吧….awa</del></p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 公告 </tag>
-            
-            <tag> 博客 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+<search>
+  <entry>
+    <title>Nocp-startpage</title>
+    <url>/2020/08/01/startpage/</url>
+    <content><![CDATA[<p>Nocp-startpage 是一个新标签页插件, 可以使你的Chrome新标签页更加简洁美观.</p>
+<h2 id="预览"><a href="#预览" class="headerlink" title="预览"></a>预览</h2><p>Demo: <a href="https://nriothrreion.github.io/Nocp-startpage/demo/nstart.html" target="_blank" rel="noopener">查看demo</a></p>
+<p>插件截图:</p>
+<p><img src="https://nriothrreion.github.io/Nocp-startpage/preview.png" alt="preview"></p>
+<h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul>
+<li><a href="https://github.com/NriotHrreion/Nocp-startpage" target="_blank" rel="noopener">代码库</a></li>
+<li><a href="https://github.com/NriotHrreion/Nocp-startpage/releases" target="_blank" rel="noopener">最新版本</a></li>
+<li><a href="https://github.com/NriotHrreion/tools/releases" target="_blank" rel="noopener">旧版本</a></li>
+</ul>
+<h2 id="许可"><a href="#许可" class="headerlink" title="许可"></a>许可</h2><p><a href="https://github.com/NriotHrreion/Nocp-startpage/LICENSE" target="_blank" rel="noopener">Apache-2.0</a></p>
+]]></content>
+      <tags>
+        <tag>开发</tag>
+        <tag>Chrome插件</tag>
+        <tag>javascript</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>自制工具站点</title>
+    <url>/2020/07/10/toolsite/</url>
+    <content><![CDATA[<p>我经常会用<strong>Javascript</strong>制作一些实用小工具或小游戏, 但是做了又没地方放, 就只好把这些东西上传至我的工具站点。</p>
+<p>我制作过像 <a href="https://tool.misakal.xzy/snake" target="_blank" rel="noopener">贪吃蛇</a>、<a href="https://tool.misakal.xyz/gopher">打地鼠</a> 的小游戏, 也整过 <a href="https://tool.misakal.xyz/cps">cps测试器</a>、<a href="https://tool.misakal.xyz/base64">Base64转换器</a> 等小工具, 当然, 不至这些… 你或许可以去 <a href="https://tool.misakal.xyz">这里</a> 看看。</p>
+<p>XD~~</p>
+]]></content>
+      <tags>
+        <tag>开发</tag>
+        <tag>公告</tag>
+        <tag>网站</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Minecraft Java服务器</title>
+    <url>/2020/07/08/server/</url>
+    <content><![CDATA[<p>我开了一个<del>没啥人玩的</del>Minecraft Java版服务器</p>
+<p>欢迎游玩~~</p>
+<ul>
+<li>IP: <strong>120.24.34.104</strong></li>
+<li>版本: <strong>Minecraft Java 1.16.1</strong></li>
+</ul>
+]]></content>
+      <tags>
+        <tag>服务器</tag>
+        <tag>Minecraft</tag>
+        <tag>开发</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>新博客正式开启</title>
+    <url>/2020/07/08/new/</url>
+    <content><![CDATA[<p><strong>NBlog</strong> 已正式开启，欢迎！</p>
+<p><del>话说这已经不是我第一次开博客了吧….awa</del></p>
+]]></content>
+      <tags>
+        <tag>公告</tag>
+        <tag>博客</tag>
+      </tags>
+  </entry>
 </search>
