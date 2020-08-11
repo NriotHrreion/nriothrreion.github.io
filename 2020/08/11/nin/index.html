@@ -22,7 +22,7 @@
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="NBlog"/>
+        <meta property="og:title" content="Nodejs 编写短网址网站"/>
     
 
     <!--Open Graph Description-->
@@ -35,7 +35,7 @@
 
     <!--Type page-->
     
-        <meta property="og:type" content="website"/>
+        <meta property="og:type" content="article"/>
     
 
     <!--Page Cover-->
@@ -54,7 +54,7 @@
 
     <!-- Title -->
     
-    <title>博客 - NBlog</title>
+    <title>Nodejs 编写短网址网站 - NBlog</title>
 
     <script src="/js/cssid.min.js"></script>
 
@@ -137,7 +137,7 @@
         </div>
 
         <div class="nav-title">
-            <p id="nav-title">Homepage</p>
+            <p id="nav-title">Nodejs 编写短网址网站</p>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -209,51 +209,79 @@
 </script>
 
     <!-- Main Content -->
-    
+    <!-- Page Header -->
+<!-- Set your background image for this header in your post front-matter: cover -->
 
-<!-- Page Header -->
-<!-- Set your background image for this header in the theme's configuration: index_cover -->
 <header class="intro-header" style="background-image: url('/img/background.jpg')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="site-heading">
-                    <h1>#博客</h1>
+                <div class="post-heading">
+                    <h1>Nodejs 编写短网址网站</h1>
+                    
+                    <span class="meta">
+                        <!-- Date and Author -->
+                        
+                            NriotHrreion 
+                        
+                        
+                            2020-08-11
+                        
+                    </span>
                 </div>
             </div>
         </div>
     </div>
 </header>
 
-<!-- Main Content -->
-<div class="container">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+            <!-- Tags and categories -->
+           
+                <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 post-tags">
+                    
+                        
+
+
+<a href="/tags/开发/">#开发</a> <a href="/tags/网站/">#网站</a> <a href="/tags/javascript/">#javascript</a>
+
+
+                    
+                </div>
+                <div class="col-lg-4 col-md-5 post-categories">
+                    
+                </div>
             
-                <div class="post-preview">
-    <a href="/2020/07/08/new/">
-        <h1 class="post-title archive">
-            新博客正式开启
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-            NriotHrreion 
-        
-        2020-07-08
-    </p>
-</div>
+
+            <!-- Gallery -->
             
-            <div class="archive-before-pagination"></div>
-            <ul class="pager">
-    
-    
-</ul>
+
+            <!-- Post Main Content -->
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <p>最近我突发奇想, 用Nodejs写出来了一个短网址网站 <a href="https://nin.red" target="_blank" rel="noopener">https://nin.red</a></p>
+<h2 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h2><p>使用 <code>node index</code> 运行index.js后, express模块开启api和网站主页.</p>
+<p>当用户在网站主页缩短网址时, 网页会向api发送xhr请求, api接收请求之后, 生成短网址, 并将短网址对应的真实地址存入url.json, 接着刷新index.js中express的router.</p>
+<p>刷新时, index.js会再次遍历url.json, 并将新的地址存入express的router.</p>
+<p>接着, api会将生成的短网址发送给网站主页, 然后网页就会显示短网址.</p>
+
+
+                
+            </div>
+
+            <!-- Comments -->
+            
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    
+
+
+                </div>
+            
         </div>
     </div>
-</div>
-
+</article>
 
     <!-- Footer -->
     <hr />
