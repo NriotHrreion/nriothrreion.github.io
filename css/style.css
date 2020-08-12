@@ -1,3 +1,7 @@
+.tag-cloud {
+  float: right;
+  width: 300px;
+}
 .transition-all {
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;

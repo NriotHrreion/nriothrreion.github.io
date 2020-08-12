@@ -1,3 +1,7 @@
+.tag-cloud {
+  float: right;
+  width: 300px;
+}
 .transition-all {
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -331,10 +335,6 @@ hr.small {
   .intro-header .post-heading .subheading {
     font-size: 30px;
   }
-}
-.tag-cloud {
-  float: right;
-  width: 300px;
 }
 .post-preview > a {
   color: #404040;
