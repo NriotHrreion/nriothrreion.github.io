@@ -22,7 +22,7 @@
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="NBlog"/>
+        <meta property="og:title" content="一个控制台小游戏"/>
     
 
     <!--Open Graph Description-->
@@ -35,7 +35,7 @@
 
     <!--Type page-->
     
-        <meta property="og:type" content="website"/>
+        <meta property="og:type" content="article"/>
     
 
     <!--Page Cover-->
@@ -54,7 +54,7 @@
 
     <!-- Title -->
     
-    <title>Archives: 2020 - NBlog</title>
+    <title>一个控制台小游戏 - NBlog</title>
 
     <!-- cssId -->
     <script src="https://cdn.jsdelivr.net/npm/cssidjs@1.0.0/cssid.min.js" type="text/javascript"></script>
@@ -141,7 +141,7 @@
         </div>
 
         <div class="nav-title">
-            <p id="nav-title">Homepage</p>
+            <p id="nav-title">一个控制台小游戏</p>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -213,126 +213,82 @@
 </script>
 
     <!-- Main Content -->
-    
+    <!-- Page Header -->
+<!-- Set your background image for this header in your post front-matter: cover -->
 
-<!-- Page Header -->
-<!-- Set your background image for this header in the theme's configuration: index_cover -->
 <header class="intro-header" style="background-image: url('/img/background.jpg')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="site-heading">
-                    <h1>2020</h1>
+                <div class="post-heading">
+                    <h1>一个控制台小游戏</h1>
+                    
+                    <span class="meta">
+                        <!-- Date and Author -->
+                        
+                            NriotHrreion 
+                        
+                        
+                            2020-09-23
+                        
+                    </span>
                 </div>
             </div>
         </div>
     </div>
 </header>
 
-<!-- Main Content -->
-<div class="container">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+            <!-- Tags and categories -->
+           
+                <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 post-tags">
+                    
+                        
+
+
+<a href="/tags/开发/">#开发</a> <a href="/tags/javascript/">#javascript</a> <a href="/tags/冒险游戏/">#冒险游戏</a>
+
+
+                    
+                </div>
+                <div class="col-lg-4 col-md-5 post-categories">
+                    
+                </div>
             
-                <div class="post-preview">
-    <a href="/2020/09/23/console-game/">
-        <h1 class="post-title archive">
-            一个控制台小游戏
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-            NriotHrreion 
-        
-        2020-09-23
-    </p>
-</div>
+
+            <!-- Gallery -->
             
-                <div class="post-preview">
-    <a href="/2020/08/11/nin/">
-        <h1 class="post-title archive">
-            Nodejs 编写短网址网站
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-            NriotHrreion 
-        
-        2020-08-11
-    </p>
-</div>
+
+            <!-- Post Main Content -->
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <p>这是一个很粗糙控制台游戏.</p>
+<p>如果你好奇这个游戏的操作原理, 那么你可以去这个工程的 <a href="https://github.com/NriotHrreion/Console-game" target="_blank" rel="noopener">Github仓库</a> 看看, 或者继续往下看.</p>
+<h2 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h2><p>在源代码 <strong>lib.js</strong> 中, 你可以在 <code>setCommand()</code> 方法中找到下面的代码:</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// command 是要设置的指令名称</span></span><br><span class="line"><span class="comment">// func 要执行的指令程序</span></span><br><span class="line">setCommand(command, func) &#123;</span><br><span class="line">    <span class="built_in">window</span>[command] = command; <span class="comment">// 将指令名称设为全局变量</span></span><br><span class="line">    <span class="built_in">Object</span>.defineProperty(<span class="built_in">window</span>, command, &#123; <span class="comment">// 设置 getter</span></span><br><span class="line">        <span class="keyword">get</span>: func,</span><br><span class="line">        enumerable: true</span><br><span class="line">    &#125;);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>代码解释</strong></p>
+<p>将要设置的指令定义为全局变量, 接着为这个全局变量设置getter.</p>
+<p>这样, 当你在控制台输入指令时, getter便会执行刚刚设置的程序.</p>
+
+
+                
+            </div>
+
+            <!-- Comments -->
             
-                <div class="post-preview">
-    <a href="/2020/08/01/startpage/">
-        <h1 class="post-title archive">
-            Nocp-startpage
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-            NriotHrreion 
-        
-        2020-08-01
-    </p>
-</div>
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    
+
+
+                </div>
             
-                <div class="post-preview">
-    <a href="/2020/07/10/toolsite/">
-        <h1 class="post-title archive">
-            自制工具站点
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-            NriotHrreion 
-        
-        2020-07-10
-    </p>
-</div>
-            
-                <div class="post-preview">
-    <a href="/2020/07/08/server/">
-        <h1 class="post-title archive">
-            Minecraft Java服务器
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-            NriotHrreion 
-        
-        2020-07-08
-    </p>
-</div>
-            
-                <div class="post-preview">
-    <a href="/2020/07/08/new/">
-        <h1 class="post-title archive">
-            新博客正式开启
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-            NriotHrreion 
-        
-        2020-07-08
-    </p>
-</div>
-            
-            <div class="archive-before-pagination"></div>
-            <ul class="pager">
-    
-    
-</ul>
         </div>
     </div>
-</div>
-
+</article>
 
     <!-- Footer -->
     <hr />

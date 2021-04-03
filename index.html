@@ -56,7 +56,11 @@
     
     <title>NBlog</title>
 
+    <!-- cssId -->
     <script src="https://cdn.jsdelivr.net/npm/cssidjs@1.0.0/cssid.min.js" type="text/javascript"></script>
+
+    <!-- Custom CSS -->
+    <script>window.cssId("L2Nzcy9zdHlsZS5jc3M=")</script>
 
     <!-- Fly Engine -->
     <script src="https://cdn.jsdelivr.net/gh/Natsuki-Kaede/Fly-Engine@master/fly-engine.js" type="module" async></script>
@@ -71,9 +75,6 @@
     <!-- Bootstrap Core CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.6/dist/css/bootstrap.min.css" rel="stylesheet"/>
 
-    <!-- Custom CSS -->
-    <script>cssId("L2Nzcy9zdHlsZS5jc3M=")</script>
-
     <!-- Custom Fonts -->
     <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css"/>
@@ -82,8 +83,8 @@
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-        <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
     <!-- Gallery -->
@@ -238,27 +239,52 @@
     </script>
 </header>
 
-<script>
-    $(document).ready(function() {
-        var hdr = $(".intro-header");
-
-        hdr.css("filter", "blur(15px)");
-        var filter = 15;
-
-        setInterval(function() {
-            if(hdr.css("filter") != "blur(0)") {
-                filter--;
-                hdr.css("filter", "blur("+ filter +"px)");
-            }
-        }, 40);
-
-    });
-</script>
-
 <!-- Main Content -->
 <div class="container">
     <div class="row" style="float: left;width: 700px;">
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            
+                <div class="post-preview">
+    <a href="/2021/04/03/function-painting/">
+        <h2 class="post-title">
+            Nodejs 编写短网址网站
+        </h2>
+        
+    </a>
+    <p class="post-meta">
+        
+                <a href="/tags/开发/" class="article-tags">#开发</a> <a href="/tags/javascript/" class="article-tags">#javascript</a> <a href="/tags/工具/" class="article-tags">#工具</a>
+                <br/>
+            
+        <!-- Date and Author -->
+        
+            NriotHrreion 
+        
+        2021-04-03
+    </p>
+</div>
+<hr>
+            
+                <div class="post-preview">
+    <a href="/2020/09/23/console-game/">
+        <h2 class="post-title">
+            一个控制台小游戏
+        </h2>
+        
+    </a>
+    <p class="post-meta">
+        
+                <a href="/tags/开发/" class="article-tags">#开发</a> <a href="/tags/javascript/" class="article-tags">#javascript</a> <a href="/tags/冒险游戏/" class="article-tags">#冒险游戏</a>
+                <br/>
+            
+        <!-- Date and Author -->
+        
+            NriotHrreion 
+        
+        2020-09-23
+    </p>
+</div>
+<hr>
             
                 <div class="post-preview">
     <a href="/2020/08/11/nin/">
@@ -377,7 +403,7 @@
             <div class="widget-wrap">
                 <h3 class="widget-title">Tag Cloud</h3>
                 <div class="widget tagcloud">
-                    <a href="/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/" style="font-size: 13px; color: #388f43">服务器</a> <a href="/tags/Minecraft/" style="font-size: 13px; color: #388f43">Minecraft</a> <a href="/tags/%E5%BC%80%E5%8F%91/" style="font-size: 21px; color: #0f611d">开发</a> <a href="/tags/%E5%85%AC%E5%91%8A/" style="font-size: 17px; color: #247830">公告</a> <a href="/tags/%E5%8D%9A%E5%AE%A2/" style="font-size: 13px; color: #388f43">博客</a> <a href="/tags/%E7%BD%91%E7%AB%99/" style="font-size: 17px; color: #247830">网站</a> <a href="/tags/Chrome%E6%8F%92%E4%BB%B6/" style="font-size: 13px; color: #388f43">Chrome插件</a> <a href="/tags/javascript/" style="font-size: 17px; color: #247830">javascript</a>
+                    <a href="/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/" style="font-size: 13px; color: #388f43">服务器</a> <a href="/tags/Minecraft/" style="font-size: 13px; color: #388f43">Minecraft</a> <a href="/tags/%E5%BC%80%E5%8F%91/" style="font-size: 21px; color: #0f611d">开发</a> <a href="/tags/%E5%85%AC%E5%91%8A/" style="font-size: 15.67px; color: #2a8036">公告</a> <a href="/tags/%E5%8D%9A%E5%AE%A2/" style="font-size: 13px; color: #388f43">博客</a> <a href="/tags/%E7%BD%91%E7%AB%99/" style="font-size: 15.67px; color: #2a8036">网站</a> <a href="/tags/Chrome%E6%8F%92%E4%BB%B6/" style="font-size: 13px; color: #388f43">Chrome插件</a> <a href="/tags/javascript/" style="font-size: 18.33px; color: #1d702a">javascript</a> <a href="/tags/%E5%86%92%E9%99%A9%E6%B8%B8%E6%88%8F/" style="font-size: 13px; color: #388f43">冒险游戏</a> <a href="/tags/%E5%B7%A5%E5%85%B7/" style="font-size: 13px; color: #388f43">工具</a>
                 </div>
             </div>
           
@@ -407,7 +433,7 @@
                     
                     
                         <li>
-                            <a href="nriot233@outlook.com" target="_blank">
+                            <a href="mailto:nriot233@outlook.com" target="_blank">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
@@ -418,7 +444,7 @@
                 </ul>
                 <script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
                 <p class="copyright text-muted" id="hitokoto" style="margin-top: 20px;"><br></p>
-                <p class="copyright text-muted" style="margin-top: 25px;">&copy; 2020 NriotHrreion<br></p>
+                <p class="copyright text-muted" style="margin-top: 25px;">&copy; 2021 NriotHrreion<br></p>
                 <p class="copyright text-muted">Blog by <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a></p>
             </div>
         </div>
