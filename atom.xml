@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://tool.misakal.xyz/"/>
-  <updated>2021-04-03T13:11:08.683Z</updated>
+  <updated>2021-04-03T13:14:46.670Z</updated>
   <id>http://tool.misakal.xyz/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Nodejs 编写短网址网站</title>
+    <title>函数图像生成器</title>
     <link href="http://tool.misakal.xyz/2021/04/03/function-painting/"/>
     <id>http://tool.misakal.xyz/2021/04/03/function-painting/</id>
     <published>2021-04-03T13:06:09.596Z</published>
-    <updated>2021-04-03T13:11:08.683Z</updated>
+    <updated>2021-04-03T13:14:46.670Z</updated>
     
     <content type="html"><![CDATA[<p>这是一个漂亮的函数图像生成器</p><p>你可以去 <a href="https://nin.red/using/function-painting/" target="_blank" rel="noopener">这里</a> 看看</p><p>或者去这个项目的 <a href="https://github.com/NriotHrreion/Function-painting" target="_blank" rel="noopener">Github仓库</a> 看看</p><h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>简单地说, 这个生成器的使用方法非常简单</p><p>你可以在输入框中输入你要生成的函数, 然后点击生成即可</p><p>如果你想要保存某个函数, 你可以直接在书签栏中添加:</p><p><code>https://nin.red/using/function-painting/?fx={你想添加的函数}</code></p>]]></content>
     

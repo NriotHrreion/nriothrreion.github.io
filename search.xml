@@ -1,166 +1,113 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>Nodejs 编写短网址网站</title>
-      <link href="/2021/04/03/function-painting/"/>
-      <url>/2021/04/03/function-painting/</url>
-      
-        <content type="html"><![CDATA[<p>这是一个漂亮的函数图像生成器</p><p>你可以去 <a href="https://nin.red/using/function-painting/" target="_blank" rel="noopener">这里</a> 看看</p><p>或者去这个项目的 <a href="https://github.com/NriotHrreion/Function-painting" target="_blank" rel="noopener">Github仓库</a> 看看</p><h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>简单地说, 这个生成器的使用方法非常简单</p><p>你可以在输入框中输入你要生成的函数, 然后点击生成即可</p><p>如果你想要保存某个函数, 你可以直接在书签栏中添加:</p><p><code>https://nin.red/using/function-painting/?fx={你想添加的函数}</code></p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 开发 </tag>
-            
-            <tag> javascript </tag>
-            
-            <tag> 工具 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>一个控制台小游戏</title>
-      <link href="/2020/09/23/console-game/"/>
-      <url>/2020/09/23/console-game/</url>
-      
-        <content type="html"><![CDATA[<p>这是一个很粗糙控制台游戏.</p><p>如果你好奇这个游戏的操作原理, 那么你可以去这个工程的 <a href="https://github.com/NriotHrreion/Console-game" target="_blank" rel="noopener">Github仓库</a> 看看, 或者继续往下看.</p><h2 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h2><p>在源代码 <strong>lib.js</strong> 中, 你可以在 <code>setCommand()</code> 方法中找到下面的代码:</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// command 是要设置的指令名称</span></span><br><span class="line"><span class="comment">// func 要执行的指令程序</span></span><br><span class="line">setCommand(command, func) &#123;</span><br><span class="line">    <span class="built_in">window</span>[command] = command; <span class="comment">// 将指令名称设为全局变量</span></span><br><span class="line">    <span class="built_in">Object</span>.defineProperty(<span class="built_in">window</span>, command, &#123; <span class="comment">// 设置 getter</span></span><br><span class="line">        <span class="keyword">get</span>: func,</span><br><span class="line">        enumerable: true</span><br><span class="line">    &#125;);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><strong>代码解释</strong></p><p>将要设置的指令定义为全局变量, 接着为这个全局变量设置getter.</p><p>这样, 当你在控制台输入指令时, getter便会执行刚刚设置的程序.</p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 开发 </tag>
-            
-            <tag> javascript </tag>
-            
-            <tag> 冒险游戏 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Nodejs 编写短网址网站</title>
-      <link href="/2020/08/11/nin/"/>
-      <url>/2020/08/11/nin/</url>
-      
-        <content type="html"><![CDATA[<p>最近我突发奇想, 用Nodejs写出来了一个短网址网站 <a href="https://nin.red" target="_blank" rel="noopener">https://nin.red</a></p><h2 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h2><p>使用 <code>node index</code> 运行index.js后, express模块开启api和网站主页.</p><p>当用户在网站主页缩短网址时, 网页会向api发送xhr请求, api接收请求之后, 生成短网址, 并将短网址对应的真实地址存入url.json, 接着刷新index.js中express的router.</p><p>刷新时, index.js会再次遍历url.json, 并将新的地址存入express的router.</p><p>接着, api会将生成的短网址发送给网站主页, 然后网页就会显示短网址.</p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 开发 </tag>
-            
-            <tag> 网站 </tag>
-            
-            <tag> javascript </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Nocp-startpage</title>
-      <link href="/2020/08/01/startpage/"/>
-      <url>/2020/08/01/startpage/</url>
-      
-        <content type="html"><![CDATA[<p>Nocp-startpage 是一个新标签页插件, 可以使你的Chrome新标签页更加简洁美观.</p><h2 id="预览"><a href="#预览" class="headerlink" title="预览"></a>预览</h2><p>Demo: <a href="https://nriothrreion.github.io/Nocp-startpage/demo/nstart.html" target="_blank" rel="noopener">查看demo</a></p><p>插件截图:</p><p><img src="https://nriothrreion.github.io/Nocp-startpage/preview.png" alt="preview"></p><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="https://github.com/NriotHrreion/Nocp-startpage" target="_blank" rel="noopener">代码库</a></li><li><a href="https://github.com/NriotHrreion/Nocp-startpage/releases" target="_blank" rel="noopener">最新版本</a></li><li><a href="https://github.com/NriotHrreion/tools/releases" target="_blank" rel="noopener">旧版本</a></li></ul><h2 id="许可"><a href="#许可" class="headerlink" title="许可"></a>许可</h2><p><a href="https://github.com/NriotHrreion/Nocp-startpage/LICENSE" target="_blank" rel="noopener">Apache-2.0</a></p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 开发 </tag>
-            
-            <tag> Chrome插件 </tag>
-            
-            <tag> javascript </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>自制工具站点</title>
-      <link href="/2020/07/10/toolsite/"/>
-      <url>/2020/07/10/toolsite/</url>
-      
-        <content type="html"><![CDATA[<p>我经常会用<strong>Javascript</strong>制作一些实用小工具或小游戏, 但是做了又没地方放, 就只好把这些东西上传至我的工具站点。</p><p>我制作过像 <a href="https://tool.misakal.xzy/snake" target="_blank" rel="noopener">贪吃蛇</a>、<a href="https://tool.misakal.xyz/gopher">打地鼠</a> 的小游戏, 也整过 <a href="https://tool.misakal.xyz/cps">cps测试器</a>、<a href="https://tool.misakal.xyz/base64">Base64转换器</a> 等小工具, 当然, 不至这些… 你或许可以去 <a href="https://tool.misakal.xyz">这里</a> 看看。</p><p>XD~~</p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 开发 </tag>
-            
-            <tag> 公告 </tag>
-            
-            <tag> 网站 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Minecraft Java服务器</title>
-      <link href="/2020/07/08/server/"/>
-      <url>/2020/07/08/server/</url>
-      
-        <content type="html"><![CDATA[<p>我开了一个<del>没啥人玩的</del>Minecraft Java版服务器</p><p>欢迎游玩~~</p><ul><li>IP: <strong>120.24.34.104</strong></li><li>版本: <strong>Minecraft Java 1.16.1</strong></li></ul>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 服务器 </tag>
-            
-            <tag> Minecraft </tag>
-            
-            <tag> 开发 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>新博客正式开启</title>
-      <link href="/2020/07/08/new/"/>
-      <url>/2020/07/08/new/</url>
-      
-        <content type="html"><![CDATA[<p><strong>NBlog</strong> 已正式开启，欢迎！</p><p><del>话说这已经不是我第一次开博客了吧….awa</del></p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 公告 </tag>
-            
-            <tag> 博客 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+<search>
+  <entry>
+    <title>函数图像生成器</title>
+    <url>/2021/04/03/function-painting/</url>
+    <content><![CDATA[<p>这是一个漂亮的函数图像生成器</p>
+<p>你可以去 <a href="https://nin.red/using/function-painting/" target="_blank" rel="noopener">这里</a> 看看</p>
+<p>或者去这个项目的 <a href="https://github.com/NriotHrreion/Function-painting" target="_blank" rel="noopener">Github仓库</a> 看看</p>
+<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>简单地说, 这个生成器的使用方法非常简单</p>
+<p>你可以在输入框中输入你要生成的函数, 然后点击生成即可</p>
+<p>如果你想要保存某个函数, 你可以直接在书签栏中添加:</p>
+<p><code>https://nin.red/using/function-painting/?fx={你想添加的函数}</code></p>
+]]></content>
+      <tags>
+        <tag>开发</tag>
+        <tag>javascript</tag>
+        <tag>工具</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一个控制台小游戏</title>
+    <url>/2020/09/23/console-game/</url>
+    <content><![CDATA[<p>这是一个很粗糙控制台游戏.</p>
+<p>如果你好奇这个游戏的操作原理, 那么你可以去这个工程的 <a href="https://github.com/NriotHrreion/Console-game" target="_blank" rel="noopener">Github仓库</a> 看看, 或者继续往下看.</p>
+<h2 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h2><p>在源代码 <strong>lib.js</strong> 中, 你可以在 <code>setCommand()</code> 方法中找到下面的代码:</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">// command 是要设置的指令名称</span></span><br><span class="line"><span class="comment">// func 要执行的指令程序</span></span><br><span class="line">setCommand(command, func) &#123;</span><br><span class="line">    <span class="built_in">window</span>[command] = command; <span class="comment">// 将指令名称设为全局变量</span></span><br><span class="line">    <span class="built_in">Object</span>.defineProperty(<span class="built_in">window</span>, command, &#123; <span class="comment">// 设置 getter</span></span><br><span class="line">        <span class="keyword">get</span>: func,</span><br><span class="line">        enumerable: true</span><br><span class="line">    &#125;);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>代码解释</strong></p>
+<p>将要设置的指令定义为全局变量, 接着为这个全局变量设置getter.</p>
+<p>这样, 当你在控制台输入指令时, getter便会执行刚刚设置的程序.</p>
+]]></content>
+      <tags>
+        <tag>开发</tag>
+        <tag>javascript</tag>
+        <tag>冒险游戏</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Nodejs 编写短网址网站</title>
+    <url>/2020/08/11/nin/</url>
+    <content><![CDATA[<p>最近我突发奇想, 用Nodejs写出来了一个短网址网站 <a href="https://nin.red" target="_blank" rel="noopener">https://nin.red</a></p>
+<h2 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h2><p>使用 <code>node index</code> 运行index.js后, express模块开启api和网站主页.</p>
+<p>当用户在网站主页缩短网址时, 网页会向api发送xhr请求, api接收请求之后, 生成短网址, 并将短网址对应的真实地址存入url.json, 接着刷新index.js中express的router.</p>
+<p>刷新时, index.js会再次遍历url.json, 并将新的地址存入express的router.</p>
+<p>接着, api会将生成的短网址发送给网站主页, 然后网页就会显示短网址.</p>
+]]></content>
+      <tags>
+        <tag>开发</tag>
+        <tag>网站</tag>
+        <tag>javascript</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Nocp-startpage</title>
+    <url>/2020/08/01/startpage/</url>
+    <content><![CDATA[<p>Nocp-startpage 是一个新标签页插件, 可以使你的Chrome新标签页更加简洁美观.</p>
+<h2 id="预览"><a href="#预览" class="headerlink" title="预览"></a>预览</h2><p>Demo: <a href="https://nriothrreion.github.io/Nocp-startpage/demo/nstart.html" target="_blank" rel="noopener">查看demo</a></p>
+<p>插件截图:</p>
+<p><img src="https://nriothrreion.github.io/Nocp-startpage/preview.png" alt="preview"></p>
+<h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul>
+<li><a href="https://github.com/NriotHrreion/Nocp-startpage" target="_blank" rel="noopener">代码库</a></li>
+<li><a href="https://github.com/NriotHrreion/Nocp-startpage/releases" target="_blank" rel="noopener">最新版本</a></li>
+<li><a href="https://github.com/NriotHrreion/tools/releases" target="_blank" rel="noopener">旧版本</a></li>
+</ul>
+<h2 id="许可"><a href="#许可" class="headerlink" title="许可"></a>许可</h2><p><a href="https://github.com/NriotHrreion/Nocp-startpage/LICENSE" target="_blank" rel="noopener">Apache-2.0</a></p>
+]]></content>
+      <tags>
+        <tag>开发</tag>
+        <tag>Chrome插件</tag>
+        <tag>javascript</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>自制工具站点</title>
+    <url>/2020/07/10/toolsite/</url>
+    <content><![CDATA[<p>我经常会用<strong>Javascript</strong>制作一些实用小工具或小游戏, 但是做了又没地方放, 就只好把这些东西上传至我的工具站点。</p>
+<p>我制作过像 <a href="https://tool.misakal.xzy/snake" target="_blank" rel="noopener">贪吃蛇</a>、<a href="https://tool.misakal.xyz/gopher">打地鼠</a> 的小游戏, 也整过 <a href="https://tool.misakal.xyz/cps">cps测试器</a>、<a href="https://tool.misakal.xyz/base64">Base64转换器</a> 等小工具, 当然, 不至这些… 你或许可以去 <a href="https://tool.misakal.xyz">这里</a> 看看。</p>
+<p>XD~~</p>
+]]></content>
+      <tags>
+        <tag>开发</tag>
+        <tag>公告</tag>
+        <tag>网站</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Minecraft Java服务器</title>
+    <url>/2020/07/08/server/</url>
+    <content><![CDATA[<p>我开了一个<del>没啥人玩的</del>Minecraft Java版服务器</p>
+<p>欢迎游玩~~</p>
+<ul>
+<li>IP: <strong>120.24.34.104</strong></li>
+<li>版本: <strong>Minecraft Java 1.16.1</strong></li>
+</ul>
+]]></content>
+      <tags>
+        <tag>服务器</tag>
+        <tag>Minecraft</tag>
+        <tag>开发</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>新博客正式开启</title>
+    <url>/2020/07/08/new/</url>
+    <content><![CDATA[<p><strong>NBlog</strong> 已正式开启，欢迎！</p>
+<p><del>话说这已经不是我第一次开博客了吧….awa</del></p>
+]]></content>
+      <tags>
+        <tag>公告</tag>
+        <tag>博客</tag>
+      </tags>
+  </entry>
 </search>
