@@ -1,3 +1,6 @@
 # Ignore for Git
 /node_modules
 /.deploy_git
+
+# Theme
+/themes/cleanblog
