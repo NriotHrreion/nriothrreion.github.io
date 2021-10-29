@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>为什么铜傀儡比轻灵更好?</title>
+      <link href="/2021/10/23/why_copper_golem_is_better_than_allay/"/>
+      <url>/2021/10/23/why_copper_golem_is_better_than_allay/</url>
+      
+        <content type="html"><![CDATA[<p>10月16号晚上，Minecraft Live在全球直播。每年的Minecraft Live都会有投票，这次也不例外，参与投票的生物是怒目怪、轻灵和铜傀儡。</p><p>网上有许多人认为，轻灵才是这三个生物中的最佳选项，以至于在官方宣传片中，大片大片的弹幕都刷着轻灵的名字，更有甚者还会攻击其他的生物。轻灵是一个像恼鬼一样可以在空中飞舞的生物，它全身尽是蓝色，背上还有一对小翅膀。轻灵可以被音符盒发出的声音所召唤，给它一件东西，它还能帮你收集出更多这样的东西给你。或许是因为它的这个能力，网上有近半数的人都觉得这个生物是最好的。</p><p>值得肯定的是，轻灵确实很可爱，而且可以帮你找出指定的物品。但官方设计这个生物也是会考虑到它的游戏平衡性的，因此，这项能力也有所限制。</p><p>首先，它不能破坏方块、开箱子，找出指定的物品。试想一下，如果你给了你的轻灵一颗钻石，然后它就去帮你挖钻石、开宝箱，不久便弄到了一大堆。这么一想似乎还挺好的，但你想过这么做之后你还需要去挖矿吗？这个游戏的核心玩法就是挖矿，如果不用挖矿，那这个游戏还有灵魂吗？玩家还需要劳动吗？有句俗话说：“百行业为先，万恶懒为首”，如果你成天不努力，只靠着你的轻灵给你送钻石，那你玩这个游戏还有什么意义？在这个游戏中，玩家的本业便是挖矿。失去了挖矿，游戏便不再有可玩性了。那这么说，它收集物品的能力就是假的了？不是的，它只能收集以掉落物形式存在的物品。</p><p>其次，它还只能收集一定范围内的指定物品。这么看来，它就只能替你捡起你身边的掉落物了。或许在某些场景下，这个功能是有一定用处的，但在原版生存的情况下，我认为这么做就没有多大意义了。如果你想要捡起周围的树苗掉落物，你不直接去捡，而是叫轻灵帮你去捡，这岂不是脱裤子放屁——多此一举？</p><p>所以说，如果Mojang官方不给它添加别的功能，那么它除了当宠物，其实也没什么大用了。那铜傀儡怎么样呢？为什么支持铜傀儡呢？</p><p>铜傀儡也是一个很耐看的生物，它有“正常”和“生锈”两种状态。正常情况下，它全身呈铜金色；生锈时，呈铜绿色。它头顶有一个小天线，身材矮矮胖胖的，会随时间推移而逐渐变为生锈状态。同样的，它也有一个能力，就是随机点击周围的铜按钮。</p><p>有人说：不就是随便点周围的铜按钮吗，这能有什么用啊？如果你是这么想的，那你就大错特错了！它最关键的能力，便是这“随机”二字，按照这个思路，如果铜按钮下有红石机关或者命令方块，那么便可以实现一定的随机性功能，如：抽奖箱、随机分配等等。又有人说：要实现这个功能，以前的特性就足够了，哪还需要铜傀儡？是的，没有铜傀儡也是可以实现随机的，但是实现的方法很复杂，有的利用了投掷器的投掷角度偏移，有的利用了计分板的UUID，还有的利用了随机玩家选择器“@r”。但奈何这些方法都比较复杂，如果没用一定的基础，会比较难理解（这里不针对指令老玩家）。如果有铜傀儡的话，那么这个逻辑就变得简单多了：只需要在在一堆铜按钮中放一个铜傀儡，按钮下放一些要执行的指令方块，这样不就行了？</p><p>而且，就外观设计来看，铜傀儡是要比轻灵好看得多的。轻灵像恼鬼一样飘来飘去的，配色也与周围环境的颜色格格不入，会显得格外突兀——想想：一片绿色中有一点蓝色，这样会好看吗？而铜傀儡的颜色能和周围的颜色很好地相处，不会有其他碍眼的地方。生锈的铜傀儡也很有摆设的价值，它放在墙壁的架子上再合适不过了，甚至还会有些古老的艺术气息。</p><p>铜傀儡的能力或许没有那么强大，但在我看来，轻灵的功能才是最无用的。大多投票给轻灵的人有很多都是因为懒得收集材料、物品、矿物才投的，却没有考虑到这个生物的实际功能作用。官方添加这个生物或许只是想增添游戏性，而不是给玩家在游戏中偷懒用的。如果你连在游戏里都会偷懒，那么你在生活中也或多或少会有些懒惰的想法或行为。</p><p>写这篇文章，目的不仅是想说铜傀儡比轻灵更好的原因，还有一点是想告诫那些懒惰的人们：懒惰，是靠不住的！</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Minecraft </tag>
+            
+            <tag> 小文章 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>[代码日记] PR经历记录</title>
+      <link href="/2021/10/15/coding_daily_2/"/>
+      <url>/2021/10/15/coding_daily_2/</url>
+      
+        <content type="html"><![CDATA[<p>上一篇代码日记里, 有个人来提了一个<a href="https://github.com/nodejs/nodejs.org/issues/4167" target="_blank" rel="noopener">issue</a>, 反馈了网站内深色模式下跳转页面闪烁的问题.</p><p>于是我迅速提交了一个修复这个bug的PR, 不久之后就被合并了.</p><p>在Github中, Pull Request里其实也藏着挺多东西的:</p><p>首先, 提交PR前你需要先Fork然后下载源码. 这里要用<code>git clone https://github.com/your_name/repo_name</code>指令下载源码, 因为这么做的话系统会自动生成<code>.git</code>文件夹, 方便后面的提交操作.</p><p>接着, 修改源码, 通过<code>git push</code>提交代码.</p><p>然后在Github进入你Fork到的仓库中, 此时你应该能看到你刚刚提交的东西(如果没看到, 那你应该好好检查一下上面的步骤), 点击Pull Requests, 创建一个新的PR即可.</p><p>最后你就可以在官方仓库的Pull Requests里看到你提交的PR了.</p><p>顺带一提, 提交了PR之后你首先要等的是reviewer来审核通过你的代码, 最后才能被合并. <strong>还有, 不要提交错误或者垃圾PR, 这样会浪费reviewer们的时间!!</strong></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 开发 </tag>
+            
+            <tag> 网站 </tag>
+            
+            <tag> javascript </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>[代码日记] 为nodejs.org网站源码提PR</title>
+      <link href="/2021/10/12/coding_daily_1/"/>
+      <url>/2021/10/12/coding_daily_1/</url>
+      
+        <content type="html"><![CDATA[<p>网站链接: <a href="https://nodejs.org" target="_blank" rel="noopener">nodejs.org</a></p><p>最近我在Github上给nodejs.org的网站源码提了一个<a href="https://github.com/nodejs/nodejs.org/pull/4139" target="_blank" rel="noopener">Pull Request</a>, 大致内容是添加网页深色模式. 所以你如果在浏览器开启了深色模式, 那么你访问nodejs.org时就能看到我添加的样式.</p><p>我发出PR之后, 很快就有管理员来审核. PR合并之后, 他们还有人来帮优化我原本写的样式.</p><p>就在昨天, 有个人来这里提了一个<a href="https://github.com/nodejs/nodejs.org/issues/4167" target="_blank" rel="noopener">issue</a>, 说切换到深色模式之后, 网站内跳转页面时会闪烁一下.</p><p>于是我把这个bug修复, 并重新提了一个<a href="https://github.com/nodejs/nodejs.org/pull/4174" target="_blank" rel="noopener">Pull Request</a>.</p><p>修复这个bug的思路是: 想办法让那段深色模式的js脚本在css加载之前被加载.</p><p>我具体这么做: 新建一个js文件, 把切换深色模式的脚本写进去, 而原本写那段脚本的地方留下一些必须要在css和dom加载之后才执行的代码(添加点击事件之类的), 最后在<code>&lt;head&gt;</code>标签中添加这个新js的引入.</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 开发 </tag>
+            
+            <tag> 网站 </tag>
+            
+            <tag> javascript </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>博客更新</title>
+      <link href="/2021/10/09/blog_update_1/"/>
+      <url>/2021/10/09/blog_update_1/</url>
+      
+        <content type="html"><![CDATA[<p><strong>NBlog</strong> 主题换回了经典的默认主题: landscape</p><p>这个主题说实话其实很耐看, 我以前用的那个主题我现在看感觉挺丑的. 感觉换来换去还是默认的好看啊!!</p><p>在这基础上进行了一些小小的修改, 发个博客纪念一下.</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 公告 </tag>
+            
+            <tag> 博客 </tag>
+            
+            <tag> 网站 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>ICraft开发日志-3</title>
+      <link href="/2021/09/18/icraft_post_3/"/>
+      <url>/2021/09/18/icraft_post_3/</url>
+      
+        <content type="html"><![CDATA[<p>今天又对ICraft做了一些小更新.</p><p>首先是游戏内的快捷键, 快捷键功能本来很早就想做的, 但因为各种原因拖到了现在才做.</p><p>其次是游戏内左上角的那个图标. 那里原本是用于显示存档的图标的, 但是我觉得没什么用, 于是就用ICraft的图标稍微改一下, 替换了上去.</p><p>最后是”检查更新”的功能. 我以前在关于页面放了一个”检查更新”的链接, 链接的地址是到<a href="https://github.com/NriotHrreion/ICraft-App/releases" target="_blank" rel="noopener">ICraft的Releases列表</a>. 现在我觉得这个”检查更新”就应该点击之后直接检查, 而不是让用户自己手动去检查.</p><p>我通过调用Github API来实现”检查更新”的功能. Github API中, 可以查询一个仓库的Releases列表, 于是我就调用这个API, 获取列表的第一个值, 并且用当前的版本号与这个值的版本号作比较, 以此实现这个功能.</p><p>以上就是这次的改动.</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 开发 </tag>
+            
+            <tag> ICraft </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>发现某反mc网站的bug</title>
+      <link href="/2021/08/26/yinbing_website_bug/"/>
+      <url>/2021/08/26/yinbing_website_bug/</url>
+      
+        <content type="html"><![CDATA[<p>这篇文章叙述了我在我偶然发现的一个反mc论坛网站中发现bug的过程.</p><p>最近刷B站的时候看到了一个反mc的人发的视频, 点进去他的主页看到他开了一个网站: <a href="https://yinbing.space" target="_blank" rel="noopener">https://yinbing.space</a></p><p>于是我心情激动地就点了进去, 没想到在那个网站注册和登录的时候发生了一些奇怪的事情.</p><p>在我登录账号的时候, 点击登录按钮便会提示”网络错误”, 重新试过几次都是这样, 所以我就抱着试试的心态打开了<code>devtools</code>.</p><p>下好断点, 调试了几次之后, 我终于发现了问题之所在!</p><p>原来是他的源码中, 发起了一个xhr post请求, 而这个请求发送过去之后收到了一个错误的responseText.</p><p>这个responseText里面是json格式的, 但是在最后结尾的地方漏掉了一个大括号, 于是导致了报错.</p><p>至于为什么会报”网络错误”, 是因为在那个xhr对象的onload函数里面, 有一个try catch语句, try语句中使用了<code>JSON.parse</code>来将那个responseText转换为<code>object</code>形式. 但恰好那个responseText有格式错误, 所以执行了catch语句中的代码.</p><p><strong>这个错误的根源或许在服务端中, 服务端给客户端代码返回了一个错误的东西而导致它报错. 要想修复它, 最好的办法就是在服务端中好好地找一找有没有什么地方是错的.</strong></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 开发 </tag>
+            
+            <tag> 网站 </tag>
+            
+            <tag> javascript </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>ICraft开发日志-2</title>
+      <link href="/2021/08/17/icraft_post_2/"/>
+      <url>/2021/08/17/icraft_post_2/</url>
+      
+        <content type="html"><![CDATA[<p>今天修复了多人游戏中玩家移动卡顿的问题, 这个问题的产生是因为玩家移动时, 客户端与服务端一起更新了玩家的位置, 但不是同时更新的, 导致客户端更新之后, 服务端才发来更新的信号, 便导致玩家移动时一卡一卡的.</p><p><strong>Deed</strong>是我的朋友, 他参与了ICraft的测试工作. 今天我把我最新开发好的源码拿给他调试的时候, 他那里弹出了一条ERR:</p><p><code>Error: Can&#39;t find module &#39;nriot-logger&#39;</code></p><p>我看了之后, 发现这是在package.json的模块列表中没有<code>nriot-logger</code>这一项, 这是由于我在下载这个模块的时候没有在命令后面写上<code>--save</code>导致的. 不过之后我马上就在列表里把漏掉的这项给加上了.</p><p>游戏界面的nav条上有显示<strong>当前方块</strong>一项, 但之前我只让它显示方块名称, 而实际上在玩的时候, 看名称其实是没办法一下反应过来是什么方块的. 因此我让它在那个位置显示当前方块的贴图, 便轻松地解决了这个非常不好的问题.</p><p>游戏界面我做了很大的更改, 但仍然有许多问题, 如果你有什么建议或者问题, 可以在<a href="https://github.com/NriotHrreion/ICraft-App/issues" target="_blank" rel="noopener">ICraft-App Repo的issues</a>里面提出来.</p><p>接下来, 我在游戏中添加了昼夜更新(daynight), 其实这个更新我自己觉得没那么好, 但是以我的水平似乎也只能这样了…… 还是要继续努力啊!</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 开发 </tag>
+            
+            <tag> ICraft </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>ICraft开发日志-1</title>
+      <link href="/2021/08/16/icraft_post_1/"/>
+      <url>/2021/08/16/icraft_post_1/</url>
+      
+        <content type="html"><![CDATA[<p>今天把上次没有修改好的“多人游戏中, 玩家角色贴图错误”问题.</p><p>之前多人游戏玩家显示的bug也被修复了, 因为我在客户端脚本中没有正确处理服务端发来的信号, 而导致玩家列表中会出现重复的玩家对象, 才导致了这个bug的产生.</p><p>为了修复这个bug, 我在客户端脚本中接收服务端信号的部分稍做了修改, 在原本接收服务器玩家列表的部分添加了一句“清空本地玩家列表数据”, 以此避免列表中出现重复对象.</p><p>接下来, 我还修复了玩家退出服务器后没有保存坐标位置的bug.</p><p>这个bug要修复其实很简单, 只需要在playerMove事件中添加坐标信息存储, 以及在服务端中添加玩家坐标信息存储即可.</p><p><strong>在此之后, 我每天如果有对ICraft源码做出改动的话, 都会发布一条开发日志的.</strong></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 开发 </tag>
+            
+            <tag> ICraft </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>在旧手机上部署MC服务器</title>
+      <link href="/2021/08/15/phone_server/"/>
+      <url>/2021/08/15/phone_server/</url>
+      
+        <content type="html"><![CDATA[<p>最近, 我找到了家里的一台旧手机, 于是就产生了一些奇妙的想法…</p><p>由于Android手机是基于Linux开发的, 所以只要有方法, 就可以把手机当作服务器来使用.</p><p>那该如何做呢?</p><p>我先在手机上下载了<strong>Termux</strong>, 这款应用是一款终端应用, 可以通过它和一些Linux指令来进行更深的操作.</p><p>打开Termux, 看到的是一个黑乎乎的界面, 接下来配置一下ssh远程连接, 就可以用电脑更方便地操作这台手机了.</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 下载openssh软件包</span></span><br><span class="line">pkg install openssh</span><br><span class="line"><span class="comment"># 启动ssh服务</span></span><br><span class="line">sshd</span><br><span class="line"><span class="comment"># 检查是否启动ssh服务, 如果列表里有ssh的话, 就是开启了</span></span><br><span class="line">ps -e | grep ssh</span><br><span class="line"><span class="comment"># 查看ip地址(为接下来的远程连接做准备)</span></span><br><span class="line">ifconfig</span><br></pre></td></tr></table></figure><p>接着, 在电脑里的cmd窗口中输入: <code>ssh root@{刚刚看到的ip地址} -p 8022</code></p><p>这样, 就在电脑上连接并登录上了手机的终端了.</p><p>下一步要安装java环境.</p><p>安装java环境有两种方式, 一种是直接用<strong>wget</strong>获取jdk, 另一种是用pkg指令下载安装java软件包, 我选择了后者:</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pkg install openjdk-17</span><br></pre></td></tr></table></figure><p>接下来, 就是下载MC服务端了. 我在官网下载了1.17版本的服务端jar包, 下载好之后简单配置了一下. 然后输入下面的指令来启动服务器:</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">java -Xmx2048M -Xms2048M -jar server.jar nogui</span><br></pre></td></tr></table></figure><p>上面的命令中, 我给MC服务端分配了2GB的运行内存, 如果你想要让更多玩家一起来玩你的服务器, 那你可以自己调大这个数字(即命令中的<code>Xmx2048</code>和<code>Xms2048</code>).</p><p>为了让其他玩家加入服务器, 你还需要一个公网IP或者是一个内网穿透工具. 因为我没有公网IP, 所以我果断选择了后者.</p><blockquote><p>我在这里使用了<a href="https://natfrp.com" target="_blank" rel="noopener">Sakurafrp</a>, 如果你实在找不到合适的内网穿透工具, 不妨试试它</p></blockquote><p>最后, 打开Minecraft, 进入服务器, 就可以和朋友一起玩了.</p><p><del>这也代表着一台旧手机重获了新生</del></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 服务器 </tag>
+            
+            <tag> Minecraft </tag>
+            
+            <tag> 开发 </tag>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>函数图像生成器</title>
+      <link href="/2021/04/03/function-painting/"/>
+      <url>/2021/04/03/function-painting/</url>
+      
+        <content type="html"><![CDATA[<p>这是一个漂亮的函数图像生成器</p><p>你可以去 <a href="https://nin.red/using/function-painting/" target="_blank" rel="noopener">这里</a> 看看</p><p>或者去这个项目的 <a href="https://github.com/NriotHrreion/Function-painting" target="_blank" rel="noopener">Github仓库</a> 看看</p><h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>简单地说, 这个生成器的使用方法非常简单</p><p>你可以在输入框中输入你要生成的函数, 然后点击生成即可</p><p>如果你想要保存某个函数, 你可以直接在书签栏中添加:</p><p><code>https://nin.red/using/function-painting/?fx={你想添加的函数}</code></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 开发 </tag>
+            
+            <tag> javascript </tag>
+            
+            <tag> 工具 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>一个控制台小游戏</title>
+      <link href="/2020/09/23/console-game/"/>
+      <url>/2020/09/23/console-game/</url>
+      
+        <content type="html"><![CDATA[<p>这是一个很粗糙控制台游戏.</p><p>如果你好奇这个游戏的操作原理, 那么你可以去这个工程的 <a href="https://github.com/NriotHrreion/Console-game" target="_blank" rel="noopener">Github仓库</a> 看看, 或者继续往下看.</p><h2 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h2><p>在源代码 <strong>lib.js</strong> 中, 你可以在 <code>setCommand()</code> 方法中找到下面的代码:</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// command 是要设置的指令名称</span></span><br><span class="line"><span class="comment">// func 要执行的指令程序</span></span><br><span class="line">setCommand(command, func) &#123;</span><br><span class="line">    <span class="built_in">window</span>[command] = command; <span class="comment">// 将指令名称设为全局变量</span></span><br><span class="line">    <span class="built_in">Object</span>.defineProperty(<span class="built_in">window</span>, command, &#123; <span class="comment">// 设置 getter</span></span><br><span class="line">        <span class="keyword">get</span>: func,</span><br><span class="line">        enumerable: true</span><br><span class="line">    &#125;);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><strong>代码解释</strong></p><p>将要设置的指令定义为全局变量, 接着为这个全局变量设置getter.</p><p>这样, 当你在控制台输入指令时, getter便会执行刚刚设置的程序.</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 开发 </tag>
+            
+            <tag> javascript </tag>
+            
+            <tag> 冒险游戏 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Nocp-startpage</title>
+      <link href="/2020/08/01/startpage/"/>
+      <url>/2020/08/01/startpage/</url>
+      
+        <content type="html"><![CDATA[<p>Nocp-startpage 是一个新标签页插件, 可以使你的Chrome新标签页更加简洁美观.</p><h2 id="预览"><a href="#预览" class="headerlink" title="预览"></a>预览</h2><p>Demo: <a href="https://nriothrreion.github.io/Nocp-startpage/demo/nstart.html" target="_blank" rel="noopener">查看demo</a></p><p>插件截图:</p><p><img src="https://nriothrreion.github.io/Nocp-startpage/preview.png" alt="preview"></p><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="https://github.com/NriotHrreion/Nocp-startpage" target="_blank" rel="noopener">代码库</a></li><li><a href="https://github.com/NriotHrreion/Nocp-startpage/releases" target="_blank" rel="noopener">最新版本</a></li><li><a href="https://github.com/NriotHrreion/tools/releases" target="_blank" rel="noopener">旧版本</a></li></ul><h2 id="许可"><a href="#许可" class="headerlink" title="许可"></a>许可</h2><p><a href="https://github.com/NriotHrreion/Nocp-startpage/LICENSE" target="_blank" rel="noopener">Apache-2.0</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 开发 </tag>
+            
+            <tag> Chrome插件 </tag>
+            
+            <tag> javascript </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>新博客正式开启</title>
+      <link href="/2020/07/08/new/"/>
+      <url>/2020/07/08/new/</url>
+      
+        <content type="html"><![CDATA[<p><strong>NBlog</strong> 已正式开启，欢迎！</p><p><del>话说这已经不是我第一次开博客了吧….awa</del></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 公告 </tag>
+            
+            <tag> 博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>

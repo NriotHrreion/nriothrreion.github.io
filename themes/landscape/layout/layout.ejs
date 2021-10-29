@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!-- 我就知道有人会来看网页代码 -->
+<html lang="zh-cn">
+<%- partial('_partial/head') %>
+<body nblog>
+  <div id="container">
+    <div id="wrap">
+      <%- partial('_partial/header', null, {cache: !config.relative_link}) %>
+      <div class="outer">
+        <% if (page.path === "index.html"){ %>
+          <section class="blog-description">
+            <span>欢迎来到这个由一条咸鱼搭建的博客!</span>
+            <span class="description-links"><a href="https://github.com/NriotHrreion">Github</a> <a href="https://nin.red">个人网站</a> <a href="mailto:nriot233@gmail.com">邮箱</a></span>
+          </section>
+        <% } %>
+        <section id="main"><%- body %></section>
+        <% if (theme.sidebar && theme.sidebar !== 'bottom'){ %>
+          <%- partial('_partial/sidebar', null, {cache: !config.relative_link}) %>
+        <% } %>
+      </div>
+      <%- partial('_partial/footer', null, {cache: !config.relative_link}) %>
+    </div>
+    <%- partial('_partial/mobile-nav', null, {cache: !config.relative_link}) %>
+    <%- partial('_partial/after-footer') %>
+  </div>
+</body>
+</html>

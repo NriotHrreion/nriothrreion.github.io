@@ -1,0 +1,28 @@
+<div class="aplayer" id="aplayer"></div>
+<script type="text/javascript">
+    const ap = new APlayer({
+        container: document.getElementById("aplayer"),
+        fixed: true,
+        mini: true,
+        audio: [
+            {
+                name: "遙",
+                artist: "陈升",
+                url: "/bgm/1.mp3",
+                cover: "/img/bgm1_cover.jpg"
+            },
+            {
+                name: "半截地图 (Live)",
+                artist: "陈升",
+                url: "/bgm/2.mp3",
+                cover: "/img/bgm2_cover.jpg"
+            },
+            {
+                name: "一直以来",
+                artist: "陈升",
+                url: "/bgm/3.mp3",
+                cover: "/img/bgm3_cover.jpg"
+            }
+        ]
+    });
+</script>
