@@ -1,0 +1,7 @@
+/.deploy_git
+/node_modules
+/public
+
+/package-lock.json
+/public.bat
+/server.bat

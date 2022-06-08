@@ -1,0 +1,57 @@
+<!-- Page Header -->
+<!-- Set your background image for this header in the theme's configuration: index_cover -->
+<header class="intro-header" style="background-image: url('<%- theme.index_cover %>')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="site-heading">
+                    <h1 data-chaffle="ua" data-chaffle-speed="15" id="blog-title"><%- config.title %></h1>
+                    <hr class="small">
+                    <span class="subheading" style="font-family: '宋体';"><%- config.subtitle %></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var title = document.getElementById("blog-title");
+
+        var chaffle_title = new Chaffle(title, {});
+        chaffle_title.init();
+
+        title.onmouseover = function() {
+            chaffle_title.init();
+        };
+    </script>
+</header>
+
+<!-- Main Content -->
+<div class="container">
+    <div class="row" style="float: left;width: 700px;">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <% page.posts.each(function(item){ %>
+                <%- partial('_partial/article-index', {item: item}) %>
+            <% }); %>
+
+            <%- partial('_partial/pagination') %>
+        </div>
+    </div>
+    <div class="tag-cloud">
+        <% if (site.tags.length){ %>
+            <div class="widget-wrap">
+                <h3 class="widget-title">Tag Cloud</h3>
+                <div class="widget tagcloud">
+                    <%- tagcloud(site.tags, {
+                        min_font: 13,
+                        max_font: 21,
+                        amount: 65,
+                        orderby: 'count',
+                        color: true,
+                        start_color: 'rgb(56, 143, 67)',
+                        end_color: 'rgb(15, 97, 29)'
+                    }) %>
+                </div>
+            </div>
+          <% } %>
+    </div>
+</div>
+

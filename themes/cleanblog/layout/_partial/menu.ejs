@@ -1,0 +1,57 @@
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top" style="position: fixed">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <a class="navbar-brand" href="<%- config.root %>" style="display: block;">NriotHrreion's Blog</a>
+        </div>
+
+        <div class="nav-title">
+            <p id="nav-title"><%- page.title||"Homepage" %></p>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="position: absolute;top: 0;right: 10px">
+            <ul class="nav navbar-nav navbar-right">
+                <% for(var i in theme.menu) { %>
+                    <li>
+                        <a class="nav-links" href="<%- theme.menu[i].url ? url_for(theme.menu[i].url) : url_for(theme.menu[i]) %>">
+                            <% if (theme.menu[i].icon) { %>
+                                <i class="fa fa-<%= theme.menu[i].icon %> fa-stack-2x"></i>
+                            <% } else { %>
+                                <%= i %>
+                            <% } %>
+                        </a>
+                    </li>
+                <% } %>
+                <li>
+                    <a id="ssr" href="/atom.xml" style="padding-top: 15px"><img src="/img/wifi.png" style="width: 20px;height: 20px;cursor: pointer;"></a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<script>
+    var sTop = 0;
+    $(window).scroll(function() {
+        sTop = $(this).scrollTop();
+        var height = $(document).height();
+        if(sTop >= 446) {
+            $(".navbar").css({"background": "white"});
+            $(".navbar-brand").css({"color": "black"});
+            $(".nav-links").css({"color": "black"});
+            $("#ssr").css({"display": "none"});
+            $(".nav-title").css({"display": "block"});
+            $("#nav-title").css({"color": "black"});
+        } else {
+            $(".navbar").css({"background": "transparent"});
+            $(".navbar-brand").css({"color": "white"});
+            $(".nav-links").css({"color": "white"});
+            $("#ssr").css({"display": "block"});
+            $(".nav-title").css({"display": "none"});
+            $("#nav-title").css({"color": "transparent"});
+        }
+    });
+</script>

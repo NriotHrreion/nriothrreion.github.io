@@ -1,0 +1,43 @@
+# Header
+menu:
+  主页: /
+  归档: /archives
+  友链: /links
+  关于: /about
+
+# URL of the Home page image
+index_cover: /img/background.jpg
+
+# Default post title
+default_post_title: Untitled
+
+# Comments. Choose one by filling up the information
+comments:
+  # Disqus comments
+  disqus_shortname:
+  # Facebook comments
+  facebook:
+    appid:
+    comment_count: 5
+    comment_colorscheme: light
+
+# Google Analytics Tracking ID
+google_analytics: UA-172053819-1
+
+# Baidu Analytics hm ID
+baidu_analytics: 6f5e2b50afb75e2f567d13907802d155
+
+# Addthis ID
+addthis:
+
+# set your own favicon
+favicon: /img/icon.png
+
+# Social Accounts
+twitter_url: https://twitter.com/Nriot_McPack
+twitter_handle:
+facebook_url: https://www.facebook.com/nriot.hrreion
+github_url: https://github.com/NriotHrreion
+gitlab_url:
+linkedin_url:
+mailto: nriot233@outlook.com
