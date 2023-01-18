@@ -7,6 +7,7 @@
     "Hello World!",
     "标语!",
     "Slogan!",
+    "!nagolS",
     "卧槽, 牛逼!",
     "PHP是世界上最好的语言!",
     "蛋糕是个谎言!",
@@ -15,7 +16,7 @@
     "Chromium!",
     "看什么, 写作业去!",
     "千万别查看这个网站的网页源代码!",
-    "Windows11最新版本体验: https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "Windows12最新版本体验: https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "Minecraft2.0预告片: https://www.bilibili.com/video/BV1GJ411x7h7",
     "Rickroll!",
     "Yahhhooooo!",
@@ -29,7 +30,6 @@
     "500 Server Error!",
     "200 Success!",
     "https://git.io/Jfcmp",
-    "ctmdnmdcnmrnmslmnmdwdnmdnmslwocnmbnmbdrnmb!",
     "...!"
   ];
   $slogan[0].innerHTML = slogans[NUtils.getRandom(0, slogans.length - 1)];

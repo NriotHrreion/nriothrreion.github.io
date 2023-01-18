@@ -5,6 +5,7 @@ tags:
 - "开发"
 - "Chrome插件"
 - "javascript"
+date: 2020-08-01
 ---
 
 Nocp-startpage 是一个新标签页插件, 可以使你的Chrome新标签页更加简洁美观.
@@ -15,7 +16,7 @@ Demo: [查看demo](https://nriothrreion.github.io/Nocp-startpage/demo/nstart.htm
 
 插件截图:
 
-![preview](https://nriothrreion.github.io/Nocp-startpage/preview.png)
+![img2.png](/img/img2.png)
 
 ## 下载
 
