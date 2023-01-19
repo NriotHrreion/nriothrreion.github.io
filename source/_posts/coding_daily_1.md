@@ -1,11 +1,14 @@
 ---
 title: "[代码日记] 为nodejs.org网站源码提PR"
 author: NriotHrreion
+categories:
+- "代码日记"
 tags:
 - "开发"
 - "网站"
 - "javascript"
 excerpt: "网站链接: [nodejs.org](https://nodejs.org)<br><br>最近我在Github上给nodejs.org的网站源码提了一个[Pull Request](https://github.com/nodejs/nodejs.org/pull/4139), 大致内容是添加网页深色模式. 所以你如果在浏览器开启了深色模式, 那么你访问nodejs.org时就能看到我添加的样式."
+date: 2021-10-12
 ---
 
 网站链接: [nodejs.org](https://nodejs.org)

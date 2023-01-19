@@ -1,10 +1,13 @@
 ---
 title: "[代码日记] 上手实践webpack、babel"
 author: NriotHrreion
+categories:
+- "代码日记"
 tags:
 - "开发"
 - "javascript"
 excerpt: "为了实践webpack、 babel等模块的配置, 我给自己写了一个utils"
+date: 2022-04-17
 ---
 
 Webpack和Babel这两个工具非常好用, 但是要用好还是有点难度的. 于是我做了个`nriot-utils`给我自己.

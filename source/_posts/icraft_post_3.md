@@ -1,10 +1,13 @@
 ---
 title: ICraft开发日志-3
 author: NriotHrreion
+categories:
+- "ICraft开发日志"
 tags:
 - "开发"
 - "ICraft"
 excerpt: "今天又对ICraft做了一些小更新."
+date: 2021-09-18
 ---
 
 今天又对ICraft做了一些小更新.

@@ -1,10 +1,13 @@
 ---
 title: ICraft开发日志-1
 author: NriotHrreion
+categories:
+- "ICraft开发日志"
 tags:
 - "开发"
 - "ICraft"
 excerpt: "今天把上次没有修改好的“多人游戏中, 玩家角色贴图错误”问题.<br><br><b>在此之后, 我每天如果有对ICraft源码做出改动的话, 都会发布一条开发日志的.</b>"
+date: 2021-08-16
 ---
 
 今天把上次没有修改好的“多人游戏中, 玩家角色贴图错误”问题.

@@ -1,9 +1,10 @@
 # Header
 menu:
-  主页: /
+  NBlog: /
   归档: /archives
   友链: /links
   关于: /about
+  主站: https://nin.red
 rss: /atom.xml
 # banner: "images/banner.jpg"
 banner: "/img/background-2.png"
@@ -18,7 +19,7 @@ fancybox: true
 #   All website licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></br>
 
 # Footer
-copyright:
+copyright: Licensed under <a href="https://choosealicense.com/licenses/mit/">MIT License</a></br>
 # Need help choosing? Please see...
 # https://creativecommons.org/choose/
 # https://choosealicense.com/

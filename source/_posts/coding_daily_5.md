@@ -1,9 +1,12 @@
 ---
 title: "[代码日记] 手写多功能计算器! (未完工)"
 author: NriotHrreion
+categories:
+- "代码日记"
 tags:
 - "开发"
 - "javascript"
+photo: "/img/coding_daily_5.png"
 excerpt: "最近用React写了一个多功能计算器, 但是还未完工, 而且遇到了难以解决的难题"
 date: 2023-01-18
 ---
@@ -89,3 +92,5 @@ Ferrum Explorer的开发暂时告一段落, 这下我又不知道下一个项目
 ## 总结
 
 没啥好说, 项目先搁置了, 咕咕咕~
+
+项目已经部署在: [calc.nin.red](https://calc.nin.red)
