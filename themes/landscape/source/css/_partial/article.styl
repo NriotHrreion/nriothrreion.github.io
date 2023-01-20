@@ -265,7 +265,7 @@ $article-share-link
   color: #999
   text-shadow: 0 1px #fff
   &:before
-    font-size: 20px
+    font-size: 19px
     font-family: font-icon
     absolute-center(@font-size)
     text-align: center
@@ -303,6 +303,22 @@ $article-share-link
   &:hover
     background: color-linkedin
     text-shadow: 0 1px darken(color-linkedin, 20%)
+
+.article-share-qq
+  @extend $article-share-link
+  &:before
+    content: "\f1d6"
+  &:hover
+    background: color-qq
+    text-shadow: 0 1px darken(color-qq, 20%)
+
+.article-share-copy
+  @extend $article-share-link
+  &:before
+    content: "\f0c5"
+  &:hover
+    background: color-grey
+    text-shadow: 0 1px darken(color-grey, 20%)
 
 .article-gallery
   background: #000
