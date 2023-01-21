@@ -9,4 +9,4 @@ date: 2023-01-21
 
 2023新春快乐, 兔年大吉~
 
-> *图源: [人民日报微博](https://weibo.com/2803301701/MpdrCt2C9)*
+> *图源: [人民日报](https://mp.weixin.qq.com/s/Wc4zRts-KU1o1FHYHqgu6Q)*
