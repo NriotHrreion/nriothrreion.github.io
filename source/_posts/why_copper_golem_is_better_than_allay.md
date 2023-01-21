@@ -4,7 +4,9 @@ author: NriotHrreion
 tags:
 - "Minecraft"
 - "小文章"
+photo: "/img/why_copper_golem_is_better_than_allay.png"
 excerpt: "Minecraft Live 投票过后的一些对于铜傀儡和轻灵的看法.<br>这是一篇小文章, 也是我第一次在博客里面发超过1000字的东西.<br><br><em>未经允许, 可以转载, 但需标明原作者(就是我, NriotHrreion)</em>"
+date: 2021-10-23
 ---
 
 10月16号晚上，Minecraft Live在全球直播。每年的Minecraft Live都会有投票，这次也不例外，参与投票的生物是怒目怪、轻灵和铜傀儡。

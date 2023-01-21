@@ -31,7 +31,7 @@ copyright: Licensed under <a href="https://choosealicense.com/licenses/mit/">MIT
 # Sidebar
 sidebar: right
 widgets:
-- recent_posts
+- recommended
 - tagcloud
 - category
 - tag
