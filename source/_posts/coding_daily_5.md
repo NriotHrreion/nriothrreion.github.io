@@ -1,5 +1,5 @@
 ---
-title: "[代码日记] 手写多功能计算器! (未完工)"
+title: "[代码日记] 手写多功能计算器! (未完工+难题)"
 author: NriotHrreion
 categories:
 - "代码日记"
