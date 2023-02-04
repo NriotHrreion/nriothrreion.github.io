@@ -39,4 +39,17 @@
   <% if (theme.fancybox){ %>
     <%- css('fancybox/jquery.fancybox.min.css') %>
   <% } %>
+  <!-- KaTeX Configuration -->
+  <%- css('https://unpkg.com/katex@0.16.4/dist/katex.min.css') %>
+  <script defer src="https://unpkg.com/katex@0.16.4/dist/katex.min.js"></script>
+  <script defer>
+    var katex_config = {
+	    delimiters: 
+	    [
+		    {left: "$$", right: "$$", display: true},
+  		  {left: "$", right: "$", display: false}
+	    ]
+    };
+  </script>
+  <script defer src="https://unpkg.com/katex@0.16.4/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body, katex_config)"></script>
 </head>
