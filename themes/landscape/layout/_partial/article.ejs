@@ -1,3 +1,4 @@
+<% if ((!post.hidden && index) || !index){ %>
 <article id="<%= post.layout %>-<%= post.slug %>" class="h-entry article article-type-<%= post.layout %>" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <% if (post.layout !== 'pages' && post.layout !== "categories") { %>
@@ -50,6 +51,7 @@
     <%- partial('post/nav') %>
   <% } %>
 </article>
+<% } %>
 
 <% if (!index && post.comments && config.disqus_shortname){ %>
 <section id="comments">
