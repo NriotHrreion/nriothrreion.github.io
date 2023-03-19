@@ -37,35 +37,37 @@
   $slogan[0].innerHTML = slogans[NUtils.getRandom(0, slogans.length - 1)];
 
   // Search
-  var $searchWrap = $('#search-form-wrap'),
-    isSearchAnim = false,
-    searchAnimDuration = 200;
-
-  var startSearchAnim = function(){
-    isSearchAnim = true;
-  };
-
-  var stopSearchAnim = function(callback){
-    setTimeout(function(){
-      isSearchAnim = false;
-      callback && callback();
-    }, searchAnimDuration);
-  };
-
-  $('#nav-search-btn').on('click', function(){
-    if (isSearchAnim) return;
-
-    startSearchAnim();
-    $searchWrap.addClass('on');
-    stopSearchAnim(function(){
-      $('.search-form-input').focus();
+  const articleListURL = window.location.protocol +"://"+ window.location.host +"/search.xml";
+  $(this).on("load", () => {
+    $('#search-input').on('keydown', function(e){
+      if(e.key === 'Enter') {
+        $.ajax({
+          url: articleListURL,
+          datatype: "xml",
+          success: (res) => {
+            var list = $("entry", res).map(function() {
+              return {
+                title: $("title", this).text(),
+                content: $("content", this).text(),
+                url: $("url", this).text(),
+              };
+            }).get();
+            var searchValue = $("#search-input")[0].value;
+  
+            list.forEach((data) => {
+              if(data.title.indexOf(searchValue) > -1) {
+                var resultListElem = document.getElementById("search-result");
+                var resultElem = document.createElement("div");
+  
+                resultElem.innerHTML =
+  `<a href="${data.url}">${data.title}</a>`;
+                resultListElem.appendChild(resultElem);
+              }
+            });
+          }
+        });
+      }
     });
-  });
-
-  $('.search-form-input').on('blur', function(){
-    startSearchAnim();
-    $searchWrap.removeClass('on');
-    stopSearchAnim();
   });
 
   // Share

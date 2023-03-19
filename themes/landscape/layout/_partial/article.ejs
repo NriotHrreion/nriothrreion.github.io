@@ -1,4 +1,4 @@
-<% if ((!post.hidden && index) || !index){ %>
+<% if (((!post.hidden && index) || !index) && post.layout !== 'search-page'){ %>
 <article id="<%= post.layout %>-<%= post.slug %>" class="h-entry article article-type-<%= post.layout %>" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <% if (post.layout !== 'pages' && post.layout !== "categories") { %>
@@ -51,6 +51,8 @@
     <%- partial('post/nav') %>
   <% } %>
 </article>
+<% } else if(post.layout == 'search-page') { %>
+  <%- post.content %>
 <% } %>
 
 <% if (!index && post.comments && config.disqus_shortname){ %>

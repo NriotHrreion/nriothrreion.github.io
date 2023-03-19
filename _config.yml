@@ -103,12 +103,18 @@ deploy:
     github: git@github.com/NriotHrreion/nriothrreion.github.io.git
   branch: master
 
-#RSS
+# RSS
 plugin:
 - hexo-generator-feed
 
-#Feed Atom
+# Feed Atom
 feed:
 type: atom
 path: atom.xml
 limit: 20
+
+# Search
+search:
+  path: search.xml
+  field: post
+  content: true
